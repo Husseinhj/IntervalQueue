@@ -10,6 +10,18 @@
 		E692E32820395F2900D30F26 /* IntervalQueue.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E692E31E20395F2800D30F26 /* IntervalQueue.framework */; };
 		E692E32D20395F2900D30F26 /* IntervalQueueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E692E32C20395F2900D30F26 /* IntervalQueueTests.swift */; };
 		E692E32F20395F2900D30F26 /* IntervalQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = E692E32120395F2900D30F26 /* IntervalQueue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E692E39D2039607300D30F26 /* IntervalQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = E692E39C2039607300D30F26 /* IntervalQueue.swift */; };
+		E692E39E2039607300D30F26 /* IntervalQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = E692E39C2039607300D30F26 /* IntervalQueue.swift */; };
+		E692E3A0203961A900D30F26 /* IntervalQueueProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E692E39F203961A900D30F26 /* IntervalQueueProtocol.swift */; };
+		E692E3A1203961A900D30F26 /* IntervalQueueProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E692E39F203961A900D30F26 /* IntervalQueueProtocol.swift */; };
+		E692E3A420396A6300D30F26 /* IntervalQueueInitProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E692E3A320396A6200D30F26 /* IntervalQueueInitProtocol.swift */; };
+		E692E3A520396A6300D30F26 /* IntervalQueueInitProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E692E3A320396A6200D30F26 /* IntervalQueueInitProtocol.swift */; };
+		E692E3A720396ADF00D30F26 /* IntervalQueueMethodsProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E692E3A620396ADF00D30F26 /* IntervalQueueMethodsProtocol.swift */; };
+		E692E3A820396ADF00D30F26 /* IntervalQueueMethodsProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E692E3A620396ADF00D30F26 /* IntervalQueueMethodsProtocol.swift */; };
+		E692E3AB20397B0000D30F26 /* PriorityEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = E692E3AA20397B0000D30F26 /* PriorityEnum.swift */; };
+		E692E3AC20397B0000D30F26 /* PriorityEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = E692E3AA20397B0000D30F26 /* PriorityEnum.swift */; };
+		E692E3AF2039B7C800D30F26 /* QueueItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E692E3AE2039B7C800D30F26 /* QueueItemModel.swift */; };
+		E692E3B02039B7C800D30F26 /* QueueItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E692E3AE2039B7C800D30F26 /* QueueItemModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +41,12 @@
 		E692E32720395F2900D30F26 /* IntervalQueueTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IntervalQueueTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E692E32C20395F2900D30F26 /* IntervalQueueTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntervalQueueTests.swift; sourceTree = "<group>"; };
 		E692E32E20395F2900D30F26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E692E39C2039607300D30F26 /* IntervalQueue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntervalQueue.swift; sourceTree = "<group>"; };
+		E692E39F203961A900D30F26 /* IntervalQueueProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntervalQueueProtocol.swift; sourceTree = "<group>"; };
+		E692E3A320396A6200D30F26 /* IntervalQueueInitProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntervalQueueInitProtocol.swift; sourceTree = "<group>"; };
+		E692E3A620396ADF00D30F26 /* IntervalQueueMethodsProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntervalQueueMethodsProtocol.swift; sourceTree = "<group>"; };
+		E692E3AA20397B0000D30F26 /* PriorityEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriorityEnum.swift; sourceTree = "<group>"; };
+		E692E3AE2039B7C800D30F26 /* QueueItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = QueueItemModel.swift; path = Model/QueueItemModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +91,10 @@
 			children = (
 				E692E32120395F2900D30F26 /* IntervalQueue.h */,
 				E692E32220395F2900D30F26 /* Info.plist */,
+				E692E39C2039607300D30F26 /* IntervalQueue.swift */,
+				E692E3AD2039B79E00D30F26 /* Model */,
+				E692E3A920397AC600D30F26 /* Enums */,
+				E692E3B12039B7CF00D30F26 /* Protocols */,
 			);
 			path = IntervalQueue;
 			sourceTree = "<group>";
@@ -84,6 +106,32 @@
 				E692E32E20395F2900D30F26 /* Info.plist */,
 			);
 			path = IntervalQueueTests;
+			sourceTree = "<group>";
+		};
+		E692E3A920397AC600D30F26 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				E692E3AA20397B0000D30F26 /* PriorityEnum.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		E692E3AD2039B79E00D30F26 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E692E3AE2039B7C800D30F26 /* QueueItemModel.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		E692E3B12039B7CF00D30F26 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				E692E39F203961A900D30F26 /* IntervalQueueProtocol.swift */,
+				E692E3A320396A6200D30F26 /* IntervalQueueInitProtocol.swift */,
+				E692E3A620396ADF00D30F26 /* IntervalQueueMethodsProtocol.swift */,
+			);
+			path = Protocols;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,6 +196,7 @@
 				TargetAttributes = {
 					E692E31D20395F2800D30F26 = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
 					E692E32620395F2900D30F26 = {
@@ -196,6 +245,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E692E3A0203961A900D30F26 /* IntervalQueueProtocol.swift in Sources */,
+				E692E3A420396A6300D30F26 /* IntervalQueueInitProtocol.swift in Sources */,
+				E692E3AF2039B7C800D30F26 /* QueueItemModel.swift in Sources */,
+				E692E3AB20397B0000D30F26 /* PriorityEnum.swift in Sources */,
+				E692E39D2039607300D30F26 /* IntervalQueue.swift in Sources */,
+				E692E3A720396ADF00D30F26 /* IntervalQueueMethodsProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,6 +258,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E692E3A820396ADF00D30F26 /* IntervalQueueMethodsProtocol.swift in Sources */,
+				E692E3A1203961A900D30F26 /* IntervalQueueProtocol.swift in Sources */,
+				E692E3AC20397B0000D30F26 /* PriorityEnum.swift in Sources */,
+				E692E39E2039607300D30F26 /* IntervalQueue.swift in Sources */,
+				E692E3B02039B7C800D30F26 /* QueueItemModel.swift in Sources */,
+				E692E3A520396A6300D30F26 /* IntervalQueueInitProtocol.swift in Sources */,
 				E692E32D20395F2900D30F26 /* IntervalQueueTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -334,6 +395,7 @@
 		E692E33320395F2900D30F26 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -347,6 +409,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.adp.ios.AdpPushClient.IntervalQueue;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -355,6 +418,7 @@
 		E692E33420395F2900D30F26 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -376,6 +440,7 @@
 		E692E33620395F2900D30F26 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YPS6454PCU;
 				INFOPLIST_FILE = IntervalQueueTests/Info.plist;
@@ -390,6 +455,7 @@
 		E692E33720395F2900D30F26 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YPS6454PCU;
 				INFOPLIST_FILE = IntervalQueueTests/Info.plist;
